@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(45deg, gray, rgb(165, 165, 165));
+    background-attachment: fixed;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20vh;
+}
+
+.egg {
+    width: 20vh;
+    height: 28vh;
+    border-radius: 50%;
+    background-color: lightgray;
+    box-shadow: 0.2vh 0.2vh 0.5vh rgba(0, 0, 0, 0.5);
+}
+
+.box {
+    width: 10vh;
+    height: 10vh;
+    box-shadow: 0.2vh 0.2vh 0.5vh rgba(0, 0, 0, 0.5);
+}
+
+.paintboxContainer {
+    display: grid;
+    align-items: center;
+
+    grid-template-columns: repeat(2, 12vh);
+    grid-template-rows: repeat(3, 12vh);
+}
+
+.paintEggContainer {
+    display: flex;
+    gap: 4vh;
+}
+
+.centerEggsView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: slategray;
+    padding: 4vh;
+    border-radius: 2vh;
+    box-shadow: 0.2vh 0.2vh 0.5vh rgba(0, 0, 0, 0.5);
+}
+
+.centerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 2.5vh;
+}
+
+.patternContainer {
+    display: grid;
+    align-items: center;
+
+    grid-template-columns: repeat(4, 12vh);
+    grid-template-rows: repeat(1, 12vh);
+}
+
+.colorboxes {
+    width: 10vh;
+    height: 5vh;
+    box-shadow: 0.2vh 0.2vh 0.5vh rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2vh;
+    font-size: 1.5vh;
+}
